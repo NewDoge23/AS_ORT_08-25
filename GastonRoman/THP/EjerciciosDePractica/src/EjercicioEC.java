@@ -1,5 +1,3 @@
-package actividad3;
-
 public class EjercicioEC {
 
     static final int MAX_MULTIPLICADOR = 10;

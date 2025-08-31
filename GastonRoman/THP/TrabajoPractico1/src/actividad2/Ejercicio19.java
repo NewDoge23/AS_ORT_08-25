@@ -13,6 +13,7 @@ public class Ejercicio19 {
 
         System.out.println("Ingrese un número: ");
         num = Integer.parseInt(input.nextLine());
+
         esImpar = (num % 2) == 1;
         esDeUnSoloDigito = (num < 10 && num > 0);
         estaEnAmbosGrupos = esImpar && esDeUnSoloDigito;
