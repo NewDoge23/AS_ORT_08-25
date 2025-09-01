@@ -1,7 +1,11 @@
 package actividad1;
 
-import java.util.Scanner;
+/*
+    Realizá un programa que permita ingresar dos números naturales. Debes mostrar los
+    resultados para las 4 operaciones matemáticas básicas con los números ingresados.
+ */
 
+import java.util.Scanner;
 
 public class Ejercicio8 {
 
@@ -22,7 +26,7 @@ public class Ejercicio8 {
         suma = num1 + num2;
         resta = num1 - num2;
         multi = num1 * num2;
-        divi = (double)num1 / num2;
+        divi = num1 / num2;
 
         System.out.println("Las 4 operaciones báscias son: ");
         System.out.println("Suma: " + suma);

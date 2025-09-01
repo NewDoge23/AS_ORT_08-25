@@ -1,5 +1,12 @@
 package actividad1;
 
+/*
+    Realizá un programa que permita ingresar el valor monetario de una hora de trabajo y la
+    cantidad de horas trabajadas por día por un trabajador. Debes mostrar el valor del salario
+    semanal, sabiendo que trabaja todos los días hábiles y la mitad de las horas del día hábil los
+    sábados. (Todas las horas valen lo mismo.)
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio4 {
@@ -16,9 +23,9 @@ public class Ejercicio4 {
         System.out.println("Ingrese la cantidad de horas trabajadas diariamente: ");
         cantHoras = Integer.parseInt(input.nextLine());
 
-        sueldoDia = (double)precioHora * cantHoras;
-        lunVie = (double)sueldoDia * 5;
-        sabado = (double)sueldoDia / 2;
+        sueldoDia = precioHora * cantHoras;
+        lunVie = sueldoDia * 5;
+        sabado = sueldoDia / 2;
 
         sueldoSemana = lunVie + sabado;
 

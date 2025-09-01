@@ -1,5 +1,18 @@
 package actividad2;
 
+/*
+    Para entrar a la montaña rusa Miedo a las alturas, algo más chica y tranquila que la anterior,
+    alcanza con que se cumpla solamente una de las siguientes condiciones: ser mayor de 6 años
+    o medir más de 1,50 metros. Realizá el mismo procedimiento que con el ejercicio anterior
+    pero con los nuevos requisitos.
+
+        Nombre  Edad    Altura  ¿Entra al juego?(V/F)
+        Juan      5       1.45          F
+        María     7       1.23          F
+        Luis      8       1.51          V
+        Ana       9       1.39          F
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio15 {

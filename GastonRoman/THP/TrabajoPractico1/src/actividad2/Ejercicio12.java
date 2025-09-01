@@ -1,5 +1,10 @@
 package actividad2;
 
+/*
+    Realizá un programa que permita ingresar dos números enteros e indique cuál de ellos es el
+    mayor.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio12 {

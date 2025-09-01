@@ -1,5 +1,10 @@
 package actividad3;
 
+/*
+    Realizá un programa que permita ingresar dos números enteros que representen el ancho y
+    el alto de una matriz de cruces. El programa debe dibujar dicha matriz.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio25 {
@@ -24,5 +29,6 @@ public class Ejercicio25 {
             }
             System.out.println();
         }
+        input.close();
     }
 }

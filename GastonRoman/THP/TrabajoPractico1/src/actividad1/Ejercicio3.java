@@ -1,5 +1,12 @@
 package actividad1;
 
+/*
+    Realizá un programa que permita ingresar un número entero. Debe mostrarse el número
+    ingresado:
+        a. Multiplicado por 5.
+        b. Dividido por 2.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio3 {
