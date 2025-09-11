@@ -1,6 +1,8 @@
+package actividadesPracticas;
+
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class EjercicioEC {
 
     static Scanner input = new Scanner(System.in);
 

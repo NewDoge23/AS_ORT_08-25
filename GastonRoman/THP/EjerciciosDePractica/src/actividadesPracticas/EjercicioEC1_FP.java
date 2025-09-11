@@ -1,4 +1,6 @@
-public class EjercicioEC {
+package actividadesPracticas;
+
+public class EjercicioEC1_FP {
 
     static final int MAX_MULTIPLICADOR = 10;
     static final int MAX_MULTIPLICANDO = 9;
