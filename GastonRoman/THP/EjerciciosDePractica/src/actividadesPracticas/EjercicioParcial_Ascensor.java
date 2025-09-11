@@ -17,7 +17,7 @@ public class EjercicioParcial_Ascensor {
 
     public static void main(String[] args) {
 
-        int piso = 0, paradasTotales = 0, paradasPares = 0, paradasImpares = 0, pisoMax = Integer.MIN_VALUE;
+        int piso, paradasTotales = 0, paradasPares = 0, paradasImpares = 0, pisoMax = Integer.MIN_VALUE;
         char ascensor, ascensorMax = 'z';
 
 
