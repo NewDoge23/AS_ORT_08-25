@@ -12,6 +12,9 @@ public class Ejercicio29 {
 
     static Scanner input = new Scanner(System.in);
 
+    static final int NOTA_MIN = 0;
+    static final int NOTA_MAX = 10;
+
     public static void main(String[] args) {
 
         int nota;
@@ -19,7 +22,7 @@ public class Ejercicio29 {
         do {
             System.out.println("Ingrese la nota del exámen: ");
             nota = Integer.parseInt(input.nextLine());
-        } while (nota < 0 || nota > 11);
+        } while (nota < NOTA_MIN || nota > NOTA_MAX);
 
     }
 }
